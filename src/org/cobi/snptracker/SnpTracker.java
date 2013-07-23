@@ -18,9 +18,8 @@ import java.util.HashMap;
 import java.util.Map;
 import net.sf.samtools.util.CompressedFileReader;
 import net.sf.samtools.util.LineReader;
-import static org.cobi.pi.Constants.LOCAL_FILE_PATHES;
-import org.cobi.pi.GlobalManager;
-import org.cobi.pi.entity.Options;
+import static org.cobi.snptracker.Constants.LOCAL_FILE_PATHES;
+import org.cobi.snptracker.entity.Options;
 import org.cobi.util.net.NetUtils;
 
 public class SnpTracker {
